@@ -1,0 +1,292 @@
+/* Write your CSS here */
+.details-container {
+  display: flex;
+  align-items: center;
+  padding-top: 50px;
+  padding-left: 125px;
+  max-width: 1140px;
+  margin-bottom: 70px;
+}
+
+@media screen and (max-width: 767px) {
+  .details-container {
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 25px;
+    max-width: 90%;
+  }
+}
+
+.product-img {
+  height: 510px;
+  max-width: 350px;
+  border-radius: 12px;
+}
+
+@media screen and (max-width: 767px) {
+  .product-img {
+    height: 340px;
+    padding-left: 0px;
+    border-radius: 10px;
+    width: 100%;
+  }
+}
+
+.products-description {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+@media screen and (max-width: 767px) {
+  .products-description {
+    margin-left: 5px;
+  }
+}
+
+.item {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 40px;
+  font-weight: 500;
+}
+
+@media screen and (max-width: 767px) {
+  .item {
+    font-size: 33px;
+  }
+}
+
+.price {
+  color: #12022f;
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+@media screen and (max-width: 767px) {
+  .price {
+    font-size: 28px;
+  }
+}
+
+.rating-review-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.rating-container-list {
+  background-color: #3b82f6;
+  width: 80px;
+  height: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  margin-top: 10px;
+  margin-right: 8px;
+
+  border-radius: 5px;
+}
+
+.rating-points {
+  color: #ffffff;
+  margin-right: 10px;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.star-image {
+  height: 20px;
+}
+
+.review {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 15px;
+  align-self: center;
+  margin-top: 25px;
+  font-weight: 400;
+}
+
+.description {
+  color: #616e7c;
+  font-family: Roboto;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    font-size: 15px;
+  }
+}
+
+.available-container {
+  display: flex;
+  align-items: center;
+}
+.available {
+  color: #171f46;
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0px;
+  margin-right: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .available {
+    font-size: 15px;
+  }
+}
+
+.text-available {
+  color: #616e7c;
+  font-family: Roboto;
+  font-size: 18px;
+  margin-bottom: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .text-available {
+    font-size: 15px;
+  }
+}
+
+.seperator {
+  border: 1px solid #cbced2;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.quantity-container {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.plus-btn {
+  background: none;
+  border: none;
+  outline: none;
+  margin-top: 0px;
+  margin-right: 10px;
+}
+
+.icon {
+  height: 35px;
+}
+
+.quantity {
+  margin-top: 10px;
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 15px;
+}
+
+.minus-btn {
+  background: none;
+  border: none;
+  outline: none;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+.add-btn {
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  height: 38px;
+  width: 120px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.similar-products-container {
+  padding-left: 125px;
+}
+
+@media screen and (max-width: 767px) {
+  .similar-products-container {
+    padding-left: 25px;
+  }
+}
+.similar {
+  color: #1e293b;
+  font-family: Roboto;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.similar-list {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 30px;
+  padding-left: 0px;
+}
+
+@media screen and (max-width: 767px) {
+  .similar-list {
+    flex-direction: row;
+    margin: 0px;
+  }
+}
+
+.products-loader-container {
+  display: flex;
+  justify-content: center;
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 150px;
+}
+
+.error-img {
+  height: 300px;
+}
+
+@media screen and (max-width: 767px) {
+  .failure-container {
+    padding-top: 105px;
+  }
+  .error-img {
+    height: 155px;
+  }
+}
+
+.no-product {
+  color: #12022f;
+  font-family: Roboto;
+  font-size: 45px;
+}
+
+@media screen and (max-width: 767px) {
+  .no-product {
+    font-size: 30px;
+  }
+}
+
+.continue-btn {
+  background-color: #3b82f6;
+  border: none;
+  outline: none;
+  color: #ffffff;
+  height: 38px;
+  width: 150px;
+  margin-top: 10px;
+  border-radius: 5px;
+  padding: 10px;
+  font-family: Roboto;
+  font-size: 15px;
+  font-weight: 500;
+}
